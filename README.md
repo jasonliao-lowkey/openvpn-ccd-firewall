@@ -5,6 +5,7 @@ OpenVPN 透過 CCD 描述檔，簡易建立 iptables rule ，openvpn client 連�
 1. 請先了解 openvpn ccd 使用方式，並了解後，可以自行設立，這裡不做過多贅述 
    (主要是 openvpn ccd 是透過 ssl common name 來區分，如果有多個 ccd ，就要對應不同的 common name 的 client 證書)
 2. ccd 描述檔說明
+3. 
    push "route 172.1.2.0 255.255.255.0"
    # tcp:22,80,443,8080,3128,5601
    push "route 172.1.3.0 255.255.255.0"

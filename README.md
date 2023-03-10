@@ -9,6 +9,7 @@ OpenVPN 透過 CCD 描述檔，簡易建立 iptables rule ，openvpn client 連�
    # tcp:22,80,443,8080,3128,5601
    push "route 172.1.3.0 255.255.255.0"
    # tcp:22,80,443,3128
+	 
    push 為原 openvpn 必要參數，會推送此 ccd 的 路由表
    緊接著 push 後的一行，格式如下
    # [tcp/udp]:port_number1,port_number2 [tcp/udp]:port_number3,port_number4

@@ -42,6 +42,6 @@ ccd-exclusive
 
 4. 如果 ccd 內的描述檔，有修改，可以單獨執行，重設 rule
    ```
-   /etc/openvpn/defaultrule.sh vip init
+   /etc/openvpn/defaultrule.sh ccd_filename init
    ```
 5. 如果有問題，再請上 issue 吧
